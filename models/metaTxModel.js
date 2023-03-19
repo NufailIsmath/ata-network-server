@@ -4,7 +4,7 @@ const metaTxSchema = mongoose.Schema({
     transfers: [{
         tokenAddress: String,
         recipient: String,
-        amount: Number
+        amount: String
     }],
     signR: {
         type: String,
